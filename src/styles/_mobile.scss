@@ -1,0 +1,35 @@
+// Widescreens
+@include mediaXl {
+
+}
+
+// Desktops and Laptops
+@include mediaLg {
+  
+}
+
+// Tablets and Small Laptops
+@include mediaMd {
+  main {
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+  .menu-nav, .menu-branding {
+    float: none;
+    width: 100%;    
+  }
+
+  .menu-nav {
+    height: 75vh;
+    font-size: 24px;
+  }
+}
+
+// Smartphones
+@include mediaSm {
+  
+}
